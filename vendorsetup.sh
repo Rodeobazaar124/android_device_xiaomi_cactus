@@ -1,1 +1,1 @@
-add_lunch_combo aosp_cactus-userdebug
+add_lunch_combo carbon_cactus-userdebug

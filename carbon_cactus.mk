@@ -3,13 +3,13 @@ $(call inherit-product, device/xiaomi/cactus/device.mk)
 
 # Inherit some common Lineage stuff.
 TARGET_BOOT_ANIMATION_RES := 720
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/carbon/common.mk)
 
 $(call inherit-product, device/xiaomi/cactus/full_cactus.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cactus
-PRODUCT_NAME := aosp_cactus
+PRODUCT_NAME := carbon_cactus
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 6A
 PRODUCT_MANUFACTURER := Xiaomi
