@@ -3,7 +3,7 @@ $(call inherit-product, device/xiaomi/cactus/device.mk)
 
 # Inherit some common Lineage stuff.
 TARGET_BOOT_ANIMATION_RES := 720
-$(call inherit-product, vendor/carbon/common.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 $(call inherit-product, device/xiaomi/cactus/full_cactus.mk)
 
