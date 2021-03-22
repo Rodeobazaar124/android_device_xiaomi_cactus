@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_cactus.mk
+    $(LOCAL_DIR)/aosp_cactus.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_cactus-user \
-    nad_cactus-userdebug \
-    nad_cactus-eng
+    aosp_cactus-user \
+    aosp_cactus-userdebug \
+    aosp_cactus-eng
