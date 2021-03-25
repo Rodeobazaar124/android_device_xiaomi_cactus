@@ -21,7 +21,7 @@ $(call inherit-product, device/xiaomi/cactus/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Gapps arch
-TARGET_GAPPS_ARCH
+TARGET_GAPPS_ARCH := arm
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
